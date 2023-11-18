@@ -1,0 +1,8 @@
+node_modules
+dist
+dist-ssr
+coverage
+.next
+yarn.lock
+package-lock.json
+public
