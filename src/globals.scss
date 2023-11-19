@@ -18,10 +18,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
     rgb(var(--background-start-rgb));
+}
+
+.hero-list-load-more-btn {
+  @apply bg-primary text-base text-white normal-case rounded-md font-semibold py-5 min-w-[320px] max-w-[320px] w-full #{!important};
+  box-shadow: 0px 0px 50px 0px rgba(187, 75, 255, 0.32) !important;
 }
